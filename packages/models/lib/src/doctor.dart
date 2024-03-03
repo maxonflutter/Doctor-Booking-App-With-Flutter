@@ -51,7 +51,8 @@ class Doctor extends Equatable {
     Doctor(
       id: '1',
       name: 'Dr. John Doe',
-      bio: 'General Practitioner',
+      bio:
+          'Dr. John Doe is a cardiologist in New York, New York and is affiliated with multiple hospitals in the area, including Lenox Hill Hospital and NYU Langone Hospitals. He received his medical degree from University of California San Francisco School of Medicine and has been in practice between 11-20 years. He is one of 102 doctors at Lenox Hill Hospital and one of 102 at NYU Langone Hospitals who specialize in Cardiovascular Disease.',
       profileImageUrl:
           'https://images.unsplash.com/photo-1557683316-973673baf926',
       category: DoctorCategory.familyMedicine,

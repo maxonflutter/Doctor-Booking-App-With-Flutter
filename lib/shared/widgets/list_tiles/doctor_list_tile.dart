@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:models/models.dart';
 
+import '../../../screens/doctor_details_screen.dart';
+
 class DoctorListTile extends StatelessWidget {
   const DoctorListTile({super.key, required this.doctor});
 
@@ -12,7 +14,16 @@ class DoctorListTile extends StatelessWidget {
     final colorScheme = Theme.of(context).colorScheme;
 
     return ListTile(
-      onTap: () {},
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) {
+              return DoctorDetailsScreen(doctorId: doctor.id);
+            },
+          ),
+        );
+      },
       contentPadding: EdgeInsets.zero,
       leading: CircleAvatar(
         radius: 30,
