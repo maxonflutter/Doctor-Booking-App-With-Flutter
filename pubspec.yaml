@@ -11,7 +11,14 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.6
   flutter_launcher_icons: ^0.13.1
-
+  flutter_bloc: ^8.1.4
+  equatable: ^2.0.5
+  go_router: ^13.2.0
+  models:
+    path: packages/models
+  google_fonts: ^6.2.0
+  flex_color_scheme: ^7.3.1
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter

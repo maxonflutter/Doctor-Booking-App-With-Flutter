@@ -1,0 +1,27 @@
+name: models
+description: "A new Flutter package project."
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.5.3
+  uuid: ^4.2.2
+  built_value: ^8.8.1
+  cloud_firestore: ^4.14.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.7
+  built_value_generator: ^8.9.0
+
+flutter:
+
