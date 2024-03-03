@@ -17,7 +17,7 @@ dependencies:
   models:
     path: packages/models
   google_fonts: ^6.2.0
-  flex_color_scheme: ^7.3.1
+  intl: ^0.19.0
   
 dev_dependencies:
   flutter_test:

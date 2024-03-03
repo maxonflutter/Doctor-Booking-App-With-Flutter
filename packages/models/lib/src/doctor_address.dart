@@ -60,4 +60,18 @@ class DoctorAddress extends Equatable {
         country,
         postalCode,
       ];
+
+  static const sampleAddresses = [
+    DoctorAddress(
+      id: '1',
+      doctorId: '1',
+      latLon: LatLng(25.276987, 55.296249),
+      streetAddress: 'Al Maktoum Street',
+      streetNumber: '123',
+      city: 'Dubai',
+      state: 'Dubai',
+      country: 'United Arab Emirates',
+      postalCode: '12345',
+    ),
+  ];
 }

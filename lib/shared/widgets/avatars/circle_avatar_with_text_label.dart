@@ -21,8 +21,8 @@ class CircleAvatarWithTextLabel extends StatelessWidget {
         children: [
           CircleAvatar(
             radius: 24,
-            backgroundColor: colorScheme.surfaceVariant,
-            foregroundColor: colorScheme.primary,
+            backgroundColor: colorScheme.primary,
+            foregroundColor: colorScheme.onPrimary,
             child: Icon(icon),
           ),
           const SizedBox(height: 8.0),

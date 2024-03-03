@@ -46,4 +46,35 @@ class Doctor extends Equatable {
         reviewCount,
         patientCount,
       ];
+
+  static final sampleDoctors = [
+    Doctor(
+      id: '1',
+      name: 'Dr. John Doe',
+      bio: 'General Practitioner',
+      profileImageUrl:
+          'https://images.unsplash.com/photo-1557683316-973673baf926',
+      category: DoctorCategory.familyMedicine,
+      address: DoctorAddress.sampleAddresses[0],
+      packages: DoctorPackage.samplePackages,
+      workingHours: DoctorWorkingHours.sampleDoctorWorkingHours,
+      rating: 4.5,
+      reviewCount: 100,
+      patientCount: 1000,
+    ),
+    Doctor(
+      id: '2',
+      name: 'Dr. Jane Doe',
+      bio: 'Dentist',
+      profileImageUrl:
+          'https://images.unsplash.com/photo-1557683316-973673baf926',
+      category: DoctorCategory.generalSurgery,
+      address: DoctorAddress.sampleAddresses[0],
+      packages: DoctorPackage.samplePackages,
+      workingHours: DoctorWorkingHours.sampleDoctorWorkingHours,
+      rating: 4.5,
+      reviewCount: 100,
+      patientCount: 1000,
+    ),
+  ];
 }
